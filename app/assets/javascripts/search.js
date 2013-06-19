@@ -9,6 +9,7 @@ function fillFields(){
     $("#P2").val("P REVIEW CAR");
     $("#P3").val("P REVIEW FORD");
     $("#Q1").val("Q FORD REVIEW");
+    $("#Q2").val("Q FORD CAR");
 }
 
 $(function(){
