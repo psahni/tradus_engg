@@ -4,14 +4,14 @@ class SearchController < ApplicationController
   end
 
   def fetch_results
-     Search.new(params[:search]) do |results, message|
+     Search.new(params[:search]) do |results|
        if results.blank?
-         flash[:error] = message
+          render :text => "X No results found",  :status => 401
        else
-         flash[:notice] = message
+         logger.debug "*********Output******************"
+         logger.debug results.inspect
          @results = results
        end
-       redirect_to root_path
      end
   end
 

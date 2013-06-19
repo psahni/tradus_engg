@@ -3,8 +3,6 @@ class Parser
 
   cattr_accessor :pages, :queries
 
-  @@pages = 0
-  @@queries = 0
 
   def initialize(field_value)
     @field_value = field_value

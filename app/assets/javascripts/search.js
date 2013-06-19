@@ -2,6 +2,7 @@
 function addMoreField(){
   var new_page_field = $('#more_field .field').clone();
       new_page_field.insertAfter('.search:last');
+      new_page_field.addClass('search');
 }
 
 function fillFields(){
@@ -23,5 +24,13 @@ $(function(){
        e.preventDefault();
        fillFields();
    });
+
+   $("#search_form").bind("ajax:beforeSend", function(){
+      $("#output-area").html("<h1>Fetching Output...</h1>")
+    })
+   .bind("ajax:error", function(evt, xhr, status, error){
+      alert("No results fetched. Please check the Input");
+      $("#output-area").html('');
+    });
 
 })

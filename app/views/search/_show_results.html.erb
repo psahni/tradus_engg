@@ -1,0 +1,9 @@
+<div>
+    <% @results.each_with_index do |result, i| %>
+      <span><%=result[0].query%></span>
+      <% result.each do |_result| %>
+        <span><%=_result.page%></span>
+     <% end %>
+     <br/>
+    <% end %>
+</div>

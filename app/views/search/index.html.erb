@@ -1,6 +1,6 @@
 <div class='form float_left'>
 
-  <%= form_tag fetch_results_search_path do %>
+  <%= form_tag fetch_results_search_path, :id => 'search_form',  :remote => true do %>
 
     <div class='fields'>
 
@@ -55,3 +55,6 @@
 <button class='fill'>
   Fill
 </button>
+
+<div id='output-area' style='margin-top:20px'>
+</div>

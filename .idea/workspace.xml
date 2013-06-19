@@ -8,21 +8,25 @@
     <file path="/20130618090749_create_pages.rb" changelist="8747765d-2239-4c3c-9f3d-34e2e8737eb6" time="1371546511887" ignored="false" />
     <file path="/page.rb" changelist="8747765d-2239-4c3c-9f3d-34e2e8737eb6" time="1371546542940" ignored="false" />
     <file path="/routes.rb" changelist="8747765d-2239-4c3c-9f3d-34e2e8737eb6" time="1371548628085" ignored="false" />
-    <file path="/index.html.erb" changelist="8747765d-2239-4c3c-9f3d-34e2e8737eb6" time="1371606983895" ignored="false" />
-    <file path="/search_controller.rb" changelist="8747765d-2239-4c3c-9f3d-34e2e8737eb6" time="1371570651303" ignored="false" />
+    <file path="/index.html.erb" changelist="8747765d-2239-4c3c-9f3d-34e2e8737eb6" time="1371655770811" ignored="false" />
+    <file path="/search_controller.rb" changelist="8747765d-2239-4c3c-9f3d-34e2e8737eb6" time="1371656065841" ignored="false" />
     <file path="/application.css" changelist="8747765d-2239-4c3c-9f3d-34e2e8737eb6" time="1371571054754" ignored="false" />
-    <file path="/search.js" changelist="8747765d-2239-4c3c-9f3d-34e2e8737eb6" time="1371612091597" ignored="false" />
-    <file path="/masterdata.rake" changelist="8747765d-2239-4c3c-9f3d-34e2e8737eb6" time="1371626960731" ignored="false" />
-    <file path="$USER_HOME$/inxerO/inxero/lib/tasks/masterdata.rake" changelist="8747765d-2239-4c3c-9f3d-34e2e8737eb6" time="1371626960127" ignored="false" />
+    <file path="/search.js" changelist="8747765d-2239-4c3c-9f3d-34e2e8737eb6" time="1371657371164" ignored="false" />
+    <file path="/masterdata.rake" changelist="8747765d-2239-4c3c-9f3d-34e2e8737eb6" time="1371642034595" ignored="false" />
+    <file path="$USER_HOME$/inxerO/inxero/lib/tasks/masterdata.rake" changelist="8747765d-2239-4c3c-9f3d-34e2e8737eb6" time="1371642034595" ignored="false" />
     <file path="$USER_HOME$/inxerO/inxero/app/models/webinar.rb" changelist="8747765d-2239-4c3c-9f3d-34e2e8737eb6" time="1371551736434" ignored="false" />
     <file path="/webinar.rb" changelist="8747765d-2239-4c3c-9f3d-34e2e8737eb6" time="1371551728424" ignored="false" />
-    <file path="/search.rb" changelist="8747765d-2239-4c3c-9f3d-34e2e8737eb6" time="1371628917199" ignored="false" />
-    <file path="/parser.rb" changelist="8747765d-2239-4c3c-9f3d-34e2e8737eb6" time="1371629273969" ignored="false" />
+    <file path="/search.rb" changelist="8747765d-2239-4c3c-9f3d-34e2e8737eb6" time="1371648919249" ignored="false" />
+    <file path="/parser.rb" changelist="8747765d-2239-4c3c-9f3d-34e2e8737eb6" time="1371656014573" ignored="false" />
     <file path="$USER_HOME$/inxerO/inxero/app/models/category.rb" changelist="8747765d-2239-4c3c-9f3d-34e2e8737eb6" time="1371562826152" ignored="false" />
     <file path="/category.rb" changelist="8747765d-2239-4c3c-9f3d-34e2e8737eb6" time="1371562827061" ignored="false" />
-    <file path="/_page_field.html.erb" changelist="8747765d-2239-4c3c-9f3d-34e2e8737eb6" time="1371571106579" ignored="false" />
+    <file path="/_page_field.html.erb" changelist="8747765d-2239-4c3c-9f3d-34e2e8737eb6" time="1371657226464" ignored="false" />
     <file path="/README.rdoc" changelist="8747765d-2239-4c3c-9f3d-34e2e8737eb6" time="1371611699740" ignored="false" />
     <file path="/Dummy.txt" changelist="8747765d-2239-4c3c-9f3d-34e2e8737eb6" time="1371619154481" ignored="false" />
+    <file path="$USER_HOME$/inxerO/inxero/app/models/showcase.rb" changelist="8747765d-2239-4c3c-9f3d-34e2e8737eb6" time="1371642329334" ignored="false" />
+    <file path="$USER_HOME$/inxerO/inxero/app/models/user.rb" changelist="8747765d-2239-4c3c-9f3d-34e2e8737eb6" time="1371642329334" ignored="false" />
+    <file path="/fetch_results.js.erb" changelist="8747765d-2239-4c3c-9f3d-34e2e8737eb6" time="1371655806554" ignored="false" />
+    <file path="/_show_results.html.erb" changelist="8747765d-2239-4c3c-9f3d-34e2e8737eb6" time="1371655742142" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,16 +46,43 @@
       <file leaf-file-name="parser.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/parser.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="36" selection-start="216" selection-end="216" vertical-scroll-proportion="0.0">
+            <state line="25" column="12" selection-start="757" selection-end="757" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="search.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="search.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/search.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="57" column="11" selection-start="1670" selection-end="1670" vertical-scroll-proportion="1.5052817">
+            <state line="43" column="9" selection-start="1407" selection-end="1410" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="search_controller.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/search_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="35" selection-start="157" selection-end="157" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_show_results.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/search/_show_results.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="9" selection-start="196" selection-end="196" vertical-scroll-proportion="-3.75">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/routes.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="39" selection-start="380" selection-end="380" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -69,16 +100,27 @@
       <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/search/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="36" selection-start="841" selection-end="841" vertical-scroll-proportion="-8.75">
+            <state line="58" column="44" selection-start="1282" selection-end="1282" vertical-scroll-proportion="-19.875">
+              <folding>
+                <element signature="n#style#0;n#div#4;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="search.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/search.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="47" selection-start="523" selection-end="523" vertical-scroll-proportion="0.47802198">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="search.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/search.js">
+      <file leaf-file-name="_page_field.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/search/_page_field.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="34" selection-start="509" selection-end="509" vertical-scroll-proportion="0.0">
+            <state line="0" column="17" selection-start="17" selection-end="17" vertical-scroll-proportion="-0.0">
               <folding />
             </state>
           </provider>
@@ -94,22 +136,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/config/database.yml" />
-        <option value="$PROJECT_DIR$/db/migrate/20130618090749_create_pages.rb" />
         <option value="$PROJECT_DIR$/app/models/page.rb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/search.css.scss" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
         <option value="$PROJECT_DIR$/app/views/search/_page.html.erb" />
         <option value="$PROJECT_DIR$/app/views/search/_query_field.html.erb" />
-        <option value="$PROJECT_DIR$/app/controllers/search_controller.rb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
-        <option value="$PROJECT_DIR$/app/views/search/_page_field.html.erb" />
         <option value="$PROJECT_DIR$/README.rdoc" />
-        <option value="$PROJECT_DIR$/app/views/search/index.html.erb" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/search.js" />
-        <option value="$PROJECT_DIR$/app/models/parser.rb" />
         <option value="$PROJECT_DIR$/app/models/search.rb" />
+        <option value="$PROJECT_DIR$/app/views/search/_show_results.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/search/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/models/parser.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/search_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/search/fetch_results.js.erb" />
+        <option value="$PROJECT_DIR$/app/views/search/_page_field.html.erb" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/search.js" />
       </list>
     </option>
   </component>
@@ -131,7 +173,7 @@
     <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1" splitterProportion="0.5">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -142,12 +184,89 @@
       <autoscrollFromSource />
       <sortByType />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="RailsProjectView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ibibo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ibibo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ibibo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ibibo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ibibo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="search" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ibibo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ibibo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ibibo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ibibo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$USER_HOME$/inxerO/inxero" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="GoToClass.includeJavaFiles" value="false" />
   </component>
   <component name="RunManager" selected="Rails.Development: ibibo">
@@ -384,13 +503,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="743" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24961948" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.14840183" sideWeight="0.67111856" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14840183" sideWeight="0.67111856" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -462,24 +581,9 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/search/_page_field.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/search/_query_field.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/search.css.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="0" selection-start="232" selection-end="232" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="42" selection-start="77" selection-end="77" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/database.yml">
@@ -502,16 +606,6 @@
         <state line="14" column="18" selection-start="640" selection-end="640" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/search_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="12" selection-start="322" selection-end="322" vertical-scroll-proportion="0.3697183" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/search/_page_field.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="18" selection-start="53" selection-end="59" vertical-scroll-proportion="0.05514706" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/search/_query_field.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="12" selection-start="88" selection-end="88" vertical-scroll-proportion="0.082720585" />
@@ -524,30 +618,67 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/search.js">
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="34" selection-start="509" selection-end="509" vertical-scroll-proportion="0.0">
+        <state line="13" column="39" selection-start="380" selection-end="380" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/search/_show_results.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="9" selection-start="196" selection-end="196" vertical-scroll-proportion="-3.75">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/search/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="36" selection-start="841" selection-end="841" vertical-scroll-proportion="-8.75">
-          <folding />
+        <state line="58" column="44" selection-start="1282" selection-end="1282" vertical-scroll-proportion="-19.875">
+          <folding>
+            <element signature="n#style#0;n#div#4;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/parser.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="36" selection-start="216" selection-end="216" vertical-scroll-proportion="0.0">
+        <state line="25" column="12" selection-start="757" selection-end="757" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/search.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="11" selection-start="1670" selection-end="1670" vertical-scroll-proportion="1.5052817">
+        <state line="43" column="9" selection-start="1407" selection-end="1410" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/search/fetch_results.js.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="39" selection-start="115" selection-end="115" vertical-scroll-proportion="0.028735632">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/search/_page_field.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="17" selection-start="17" selection-end="17" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/search_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="35" selection-start="157" selection-end="157" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/search.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="47" selection-start="523" selection-end="523" vertical-scroll-proportion="0.47802198">
           <folding />
         </state>
       </provider>
