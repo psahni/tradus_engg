@@ -12,8 +12,6 @@ class Parser
 
   def calculate_relavance_hash
     array = @field_value.split(/\s/)
-    Rails.logger.info "==========="
-    Rails.logger.info array
     if array[0] == 'P'
       @@pages+=1
       array[1..-1].each_with_index do |keyword, index|

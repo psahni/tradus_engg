@@ -4,9 +4,10 @@ class Search
 
   MAX = 8
 
-  @@pages_keywords_relavance, @@query_keywords_relavance, @@output = Hash.new(), Hash.new(), Hash.new()
 
   def initialize(args, &block)
+    Search.pages_keywords_relavance = {}
+    Search.query_keywords_relavance = {}
     calculate_relavance(args)
     process_results
     yield '', "X No results"
@@ -52,11 +53,24 @@ class Search
     end
 
     temp.each_key do |key|
-      output_array << temp[key].sort{|page1, page2| page2.value <=> page1.value}
+      output_array << sort_by_page_and_value(temp[key])
     end
     Rails.logger.info output_array.inspect
   end
 end
+
+ def sort_by_page_and_value(array)
+   array.sort!{|page1, page2| page2.value <=> page1.value}
+   size = array.size-1
+   size.times do |i|
+     index_min = i
+     (i + 1).upto(size) do |j|
+       index_min = j if ((array[j].page < array[index_min].page) && (array[j].value == array[index_min].value) )
+     end
+     array[i], array[index_min] = array[index_min], array[i] if index_min!=i
+   end
+  return array
+ end
 
 class Page < Struct.new(:page, :value, :query)
 end
