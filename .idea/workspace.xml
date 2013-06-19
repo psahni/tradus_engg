@@ -21,6 +21,7 @@
     <file path="$USER_HOME$/inxerO/inxero/app/models/category.rb" changelist="8747765d-2239-4c3c-9f3d-34e2e8737eb6" time="1371562826152" ignored="false" />
     <file path="/category.rb" changelist="8747765d-2239-4c3c-9f3d-34e2e8737eb6" time="1371562827061" ignored="false" />
     <file path="/_page_field.html.erb" changelist="8747765d-2239-4c3c-9f3d-34e2e8737eb6" time="1371571106579" ignored="false" />
+    <file path="/README.rdoc" changelist="8747765d-2239-4c3c-9f3d-34e2e8737eb6" time="1371611699740" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,10 +47,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="search.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="search.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/search.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="43" selection-start="1212" selection-end="1212" vertical-scroll-proportion="0.7359155">
+            <state line="36" column="43" selection-start="1212" selection-end="1212" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.rdoc" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.rdoc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="16" selection-start="88" selection-end="88" vertical-scroll-proportion="0.0528169">
               <folding />
             </state>
           </provider>
@@ -98,6 +108,7 @@
         <option value="$PROJECT_DIR$/app/models/parser.rb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/search.js" />
         <option value="$PROJECT_DIR$/app/models/search.rb" />
+        <option value="$PROJECT_DIR$/README.rdoc" />
       </list>
     </option>
   </component>
@@ -559,11 +570,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/search/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="25" selection-start="284" selection-end="284" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/search/_page_field.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
@@ -642,7 +648,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/search.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="43" selection-start="1212" selection-end="1212" vertical-scroll-proportion="0.7359155">
+        <state line="36" column="43" selection-start="1212" selection-end="1212" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.rdoc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="16" selection-start="88" selection-end="88" vertical-scroll-proportion="0.0528169">
           <folding />
         </state>
       </provider>
