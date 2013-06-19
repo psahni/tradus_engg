@@ -1,0 +1,51 @@
+<div class='form float_left'>
+
+  <%= form_tag fetch_results_search_path do %>
+
+    <div class='fields'>
+
+      <div class='field search'>
+        <%=text_field_tag "search[]", '',:id => 'P1'%>
+      </div>
+
+      <div class='field search'>
+        <%=text_field_tag "search[]", '', :id => 'P2'%>
+      </div>
+
+      <div class='field search'>
+        <%=text_field_tag "search[]", '', :id => 'P3'%>
+      </div>
+
+      <div class='field search'>
+        <%=text_field_tag "search[]", '', :id => 'Q1'%>
+      </div>
+
+      <button style='margin-top:20px;' class='add_more'>
+        Add More
+      </button>
+
+      <div style='margin-top:20px;'>
+       <%=submit_tag "Submit", 'disable_with' => 'Please Wait..'%>
+      </div>
+
+    </div>
+
+  <% end %>
+
+</div>
+
+<div class='clear'></div>
+<div id="flash">
+  <% flash_msg, klass =  flash[:error] ? [flash[:error], 'error'] : [flash[:notice], 'notice'] %>
+  <div class='<%=klass%>'>
+    <%=flash_msg%>
+  </div>
+</div>
+
+<div id="more_field" style='display:none;'>
+  <%=render :partial => 'page_field'%>
+</div>
+
+<button class='fill'>
+  Fill
+</button>
