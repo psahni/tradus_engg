@@ -27,7 +27,7 @@
     <file path="$USER_HOME$/inxerO/inxero/app/models/user.rb" changelist="8747765d-2239-4c3c-9f3d-34e2e8737eb6" time="1371642329334" ignored="false" />
     <file path="/fetch_results.js.erb" changelist="8747765d-2239-4c3c-9f3d-34e2e8737eb6" time="1371655806554" ignored="false" />
     <file path="/_show_results.html.erb" changelist="8747765d-2239-4c3c-9f3d-34e2e8737eb6" time="1371655742142" ignored="false" />
-    <file path="/README.md" changelist="8747765d-2239-4c3c-9f3d-34e2e8737eb6" time="1371697424205" ignored="false" />
+    <file path="/README.md" changelist="8747765d-2239-4c3c-9f3d-34e2e8737eb6" time="1371697649867" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +92,7 @@
       <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="60" selection-start="417" selection-end="417" vertical-scroll-proportion="0.5769231">
+            <state line="9" column="0" selection-start="226" selection-end="226" vertical-scroll-proportion="0.24725275">
               <folding />
             </state>
           </provider>
@@ -705,7 +705,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="60" selection-start="417" selection-end="417" vertical-scroll-proportion="0.5769231">
+        <state line="9" column="0" selection-start="226" selection-end="226" vertical-scroll-proportion="0.24725275">
           <folding />
         </state>
       </provider>
