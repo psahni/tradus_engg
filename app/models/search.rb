@@ -24,13 +24,20 @@ class Search
 
 
 
-  #######################################################################################################
-  #
-  #######################################################################################################
+  ################################################################################################################################
+  #  Got two hashes after calculating relavance,of each relavance example:
+  # {"Q1"=>{"FORD"=>8}, "Q2"=>{"CAR"=>8}, "Q3"=>{"TEA"=>8}, "Q4"=>{"FORD"=>8, "REVIEW"=>7}, "Q5"=>{"FORD"=>8, "CAR"=>7}, "Q6"=>{"REVIEW"=>8}}
+  # {"P1"=>{"FORD"=>8, "CAR"=>7, "REVIEW"=>6}, "P2"=>{"REVIEW"=>8, "CAR"=>7}, "P3"=>{"REVIEW"=>8, "FORD"=>7}, "P4"=>{"TOYOTA"=>8, "CAR"=>7},
+  #  "P5"=>{"HONDA"=>8, "CAR"=>7}, "P6"=>{"MAZA"=>8}
+  # Now iterate on two hashes to calculate combined relavance of query and page and then sort,
+  # Query with no matching keyword in the pages, will not appear in the output
+  ###############################################################################################################################
 
 
   def process_results
     Search.output = {}
+   # Rails.logger.info Search.query_keywords_relavance.inspect
+   # Rails.logger.info Search.pages_keywords_relavance.inspect
     raise "Not Valid" if ( Search.query_keywords_relavance.blank? || Search.pages_keywords_relavance.blank? )
     Search.query_keywords_relavance.each do |query, keyword_rela|
       keyword_rela.keys.each do |key|
@@ -81,3 +88,8 @@ end
  #  end
  # return array
  #end
+
+
+ #######################################################################################################
+ # THERE EXIST A BETTER SOLUTION, I'LD LOVE TO KNOW IT.
+ #######################################################################################################

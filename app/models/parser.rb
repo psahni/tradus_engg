@@ -9,7 +9,7 @@ class Parser
   end
 
   def calculate_relavance_hash
-    array = @field_value.split(/\s/)
+    array = @field_value.upcase.split(/\s/).uniq
     if array[0] == 'P'
       @@pages+=1
       array[1..-1].each_with_index do |keyword, index|

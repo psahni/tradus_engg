@@ -1,3 +1,6 @@
+<h2>Please enter Page and Query</h2>
+<h5><i>Page should start with P and query should start with Q, followed by respective keywords</i></h5>
+<h5>Query with no matching keyword will not appear in the output</h5>
 <div class='form float_left'>
 
   <%= form_tag fetch_results_search_path, :id => 'search_form',  :remote => true do %>
@@ -52,7 +55,7 @@
   <%=render :partial => 'page_field'%>
 </div>
 
-<button class='fill'>
+<button class='fill' style='display: none;'>
   Fill
 </button>
 
