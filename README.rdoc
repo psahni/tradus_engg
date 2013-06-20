@@ -1,4 +1,0 @@
-== How to install
-* git clone https://github.com/psahni/tradus_engg.git
-* bundle install
-
