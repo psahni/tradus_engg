@@ -27,7 +27,7 @@
     <file path="$USER_HOME$/inxerO/inxero/app/models/user.rb" changelist="8747765d-2239-4c3c-9f3d-34e2e8737eb6" time="1371642329334" ignored="false" />
     <file path="/fetch_results.js.erb" changelist="8747765d-2239-4c3c-9f3d-34e2e8737eb6" time="1371655806554" ignored="false" />
     <file path="/_show_results.html.erb" changelist="8747765d-2239-4c3c-9f3d-34e2e8737eb6" time="1371655742142" ignored="false" />
-    <file path="/README.md" changelist="8747765d-2239-4c3c-9f3d-34e2e8737eb6" time="1371697216459" ignored="false" />
+    <file path="/README.md" changelist="8747765d-2239-4c3c-9f3d-34e2e8737eb6" time="1371697424205" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +92,7 @@
       <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="74" selection-start="424" selection-end="424" vertical-scroll-proportion="0.5769231">
+            <state line="21" column="0" selection-start="357" selection-end="357" vertical-scroll-proportion="0.5769231">
               <folding />
             </state>
           </provider>
@@ -655,13 +655,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/search.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="49" selection-start="550" selection-end="550" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/search/_page_field.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="17" selection-start="17" selection-end="17" vertical-scroll-proportion="0.0">
@@ -703,9 +696,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/search.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="49" selection-start="550" selection-end="550" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="74" selection-start="424" selection-end="424" vertical-scroll-proportion="0.5769231">
+        <state line="21" column="0" selection-start="357" selection-end="357" vertical-scroll-proportion="0.5769231">
           <folding />
         </state>
       </provider>

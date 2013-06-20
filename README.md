@@ -17,6 +17,9 @@
 * app/views/search/index.html.erb
 
 
+## Output screen
+
+
 ## Others
 
 * Please drop me a mail @ prashant.sahni5@gmail.com, in case of any issue.
