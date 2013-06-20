@@ -1,11 +1,13 @@
 ## How to install
 
 * git clone https://github.com/psahni/tradus_engg.git
+
 * bundle install
+
 * rake db:create
 
 - Requirement ruby 1.9.3, rubygems ( including bundler )
-- Type rails server from the project dir
+- Type "rails server" from the project dir
 - Go localhost:3000
 
 ## Major files of the project
