@@ -19,6 +19,7 @@
 
 ## Output screen
 
+https://github.com/psahni/tradus_engg/blob/master/screen.png
 
 ## Others
 
